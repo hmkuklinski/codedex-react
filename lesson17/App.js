@@ -20,7 +20,7 @@ export default function App(props) {
         className="element-with-tooltip"
         onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}
       >
-        Hover over me
+        What is a tooltip? (hover to find out)
         {showTooltip && <div className="tooltip">This is a tooltip</div>}
       </div>
     </div>
