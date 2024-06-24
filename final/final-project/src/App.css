@@ -1,0 +1,117 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* General Styles */
+html {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+}
+h1{
+  color: #1010f5;
+  font-size: 40px;
+  margin:0;
+}
+/* Header Styles */
+header {
+  color: black;
+  width: 100%;
+  text-align: center;
+}
+.navbar, .form-container{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  width: 90%;
+}
+.form-container{
+  margin: 30px 15px;
+}
+.navbar a {
+  color: #1010f5af;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.navbar a:hover {
+  color: skyblue;
+}
+
+/* Form Styles */
+form {
+  max-width: 400px;
+  height: 150px;
+  width: 100%;
+  margin: 20px 0;
+}
+
+
+form label {
+  display: block;
+  font-weight: 600;
+  margin: 10px;
+}
+
+form input {
+  width: 300px;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  text-align:center;
+  box-shadow: 2px 3px 3px black;
+}
+
+form button {
+  color: whitesmoke;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  background-color: #1010f5; 
+}
+
+/* Question Styles */
+h2 {
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+  color: black;
+}
+
+p {
+  text-align: center;
+  width: 100%;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 12px;
+  border: 1px solid gray;
+  box-shadow: 5px 5px 5px gray;
+  cursor: pointer;
+  margin: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+}
+.dog-container img{
+  height: 280px;
+  width: 400px;
+}
+.dog-container{
+  background-color: rgba(159, 160, 161, 0.651);
+  padding:5px 30px 30px 30px;
+  margin: 50px 15px;
+  border-radius:12px;
+}
